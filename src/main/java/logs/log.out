@@ -1,0 +1,24 @@
+2022-01-21 01:01:898 INFO  ManageDriver :32 - Launching Chrome Browser
+2022-01-21 01:01:251 INFO  HomePage :52 - Verify Bingo tab : 
+2022-01-21 01:01:519 INFO  HomePage :57 - Verify Jackpots tab : 
+2022-01-21 01:01:767 INFO  HomePage :62 - Verify Slots tab : 
+2022-01-21 01:01:17 INFO  HomePage :67 - Verify Casino tab : 
+2022-01-21 01:01:301 INFO  HomePage :72 - Verify Promos tab : true
+2022-01-21 01:01:333 INFO  ManageDriver :32 - Launching Chrome Browser
+2022-01-21 01:01:782 INFO  ManageDriver :32 - Launching Chrome Browser
+2022-01-21 01:01:381 INFO  ManageDriver :32 - Launching Chrome Browser
+2022-01-21 01:01:870 INFO  ManageDriver :32 - Launching Chrome Browser
+2022-01-21 01:01:310 INFO  HomePage :52 - Verify Bingo tab : 
+2022-01-21 01:01:550 INFO  HomePage :57 - Verify Jackpots tab : 
+2022-01-21 01:01:750 INFO  HomePage :62 - Verify Slots tab : 
+2022-01-21 01:01:982 INFO  HomePage :67 - Verify Casino tab : 
+2022-01-21 01:01:220 INFO  HomePage :72 - Verify Promos tab : true
+2022-01-21 01:01:33 INFO  ManageDriver :32 - Launching Chrome Browser
+2022-01-21 01:01:764 INFO  ManageDriver :32 - Launching Chrome Browser
+2022-01-21 01:01:523 INFO  ManageDriver :32 - Launching Chrome Browser
+2022-01-21 01:01:972 INFO  ManageDriver :32 - Launching Chrome Browser
+2022-01-21 01:01:427 INFO  HomePage :52 - Verify Bingo tab : 
+2022-01-21 01:01:701 INFO  HomePage :57 - Verify Jackpots tab : 
+2022-01-21 01:01:916 INFO  HomePage :62 - Verify Slots tab : 
+2022-01-21 01:01:133 INFO  HomePage :67 - Verify Casino tab : 
+2022-01-21 01:01:366 INFO  HomePage :72 - Verify Promos tab : true
