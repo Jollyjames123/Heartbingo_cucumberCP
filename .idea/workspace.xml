@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db9a94f6-b393-46d0-882f-122c1ea0c6d9" name="Changes" comment="" />
+    <list default="true" id="db9a94f6-b393-46d0-882f-122c1ea0c6d9" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/uk/heartbingo/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/uk/heartbingo/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/uk/heartbingo/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/uk/heartbingo/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/logs/log.out" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/logs/log.out" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,6 +30,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="23ybp6AEQTSpjHUIMJuMDFc6NS0" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -32,14 +39,14 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Wk15_Sample-cucumber-project" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="co.uk.heartbingo" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestRunnerSanity">
+  <component name="RunManager" selected="JUnit.TestRunnerSmoke">
     <configuration name="Scenario: Verify Login button is working fine" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/resources/featurefile/login.feature" />
@@ -115,9 +122,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestRunnerSmoke" />
         <item itemvalue="JUnit.TestRunnerSanity" />
         <item itemvalue="JUnit.TestRunnerRegression" />
-        <item itemvalue="JUnit.TestRunnerSmoke" />
         <item itemvalue="Cucumber Java.Scenario: Verify Login button is working fine" />
       </list>
     </recent_temporary>

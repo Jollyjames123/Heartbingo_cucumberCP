@@ -41,35 +41,34 @@ public class HomePage extends Utility {
 
 
     public void clickOnLogin() {
-       // driver.switchTo().frame(iframe);
-        pmWaitWithThreadSleep(20);
+       pmWaitWithThreadSleep(20);
        pmClickOnElement(loginButton);
-       // driver.switchTo().defaultContent();
-    }
+        log.info("Clicking on the login TAB: "+ loginButton.toString() );
+     }
     public void verifyBingoTab(){
         pmMouseHoverNoClick(bingo);
         Assert.assertTrue(bingo.isDisplayed());
-        log.info("Verify Bingo tab : " );
+        log.info("Is Bingo link displayed? :"+ bingo.isDisplayed() );
     }
     public void verifyJackpotsTab(){
         pmMouseHoverNoClick(jackpots);
         Assert.assertTrue(jackpots.isDisplayed());
-        log.info("Verify Jackpots tab : " );
+        log.info("Is Jackpots link displayed? :"+jackpots.isDisplayed() );
     }
     public void verifySlotsTab(){
         pmMouseHoverNoClick(slots);
         Assert.assertTrue(slots.isDisplayed());
-        log.info("Verify Slots tab : " );
+        log.info("Is Slots link displayed? :"+slots.isDisplayed() );
     }
     public void verifyCasinoTab(){
         pmMouseHoverNoClick(casino);
         Assert.assertTrue(casino.isDisplayed());
-        log.info("Verify Casino tab : " );
+        log.info("Is Casino link displayed? :"+casino.isDisplayed() );
     }
     public void verifyPromosTab(){
         pmMouseHoverNoClick(promos);
         Assert.assertTrue(promos.isDisplayed());
-        log.info("Verify Promos tab : " + promos.isDisplayed() );
+        log.info("Is Promos link displayed? :" + promos.isDisplayed() );
     }
 
 }

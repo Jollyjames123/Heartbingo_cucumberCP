@@ -22,3 +22,52 @@
 2022-01-21 01:01:916 INFO  HomePage :62 - Verify Slots tab : 
 2022-01-21 01:01:133 INFO  HomePage :67 - Verify Casino tab : 
 2022-01-21 01:01:366 INFO  HomePage :72 - Verify Promos tab : true
+2022-01-21 10:01:283 INFO  ManageDriver :32 - Launching Chrome Browser
+2022-01-21 10:01:352 INFO  ManageDriver :32 - Launching Chrome Browser
+2022-01-21 10:01:775 INFO  ManageDriver :32 - Launching Chrome Browser
+2022-01-21 18:01:863 INFO  ManageDriver :32 - Launching Chrome Browser
+2022-01-21 18:01:589 INFO  HomePage :51 - Verify Bingo tab : 
+2022-01-21 18:01:939 INFO  HomePage :56 - Verify Jackpots tab : 
+2022-01-21 18:01:273 INFO  HomePage :61 - Verify Slots tab : 
+2022-01-21 18:01:540 INFO  HomePage :66 - Verify Casino tab : 
+2022-01-21 18:01:960 INFO  HomePage :71 - Verify Promos tab : true
+2022-01-21 18:01:29 INFO  ManageDriver :32 - Launching Chrome Browser
+2022-01-21 18:01:510 INFO  HomePage :51 - Is Bingo link displayed? :true
+2022-01-21 18:01:860 INFO  HomePage :56 - Is Jackpots link displayed? :true
+2022-01-21 18:01:191 INFO  HomePage :61 - Is Slots link displayed? :true
+2022-01-21 18:01:497 INFO  HomePage :66 - Is Casino link displayed? :true
+2022-01-21 18:01:908 INFO  HomePage :71 - Is Promos link displayed? :true
+2022-01-21 18:01:953 INFO  ManageDriver :32 - Launching Chrome Browser
+2022-01-21 18:01:719 INFO  HomePage :46 - Clicking on the login TAB: [[ChromeDriver: chrome on WINDOWS (400195d0d2c78951676e0edfd5d62cf4)] -> xpath: //a[normalize-space()='Log In']]
+2022-01-21 18:01:823 INFO  LoginPage :42 - Verifying the Login page with URL: https://www.heartbingo.co.uk/en-gb/login?first_modal=true
+2022-01-21 18:01:645 INFO  ManageDriver :32 - Launching Chrome Browser
+2022-01-21 18:01:659 INFO  HomePage :46 - Clicking on the login TAB: [[ChromeDriver: chrome on WINDOWS (375e95798c06ae8f453044337d39b308)] -> xpath: //a[normalize-space()='Log In']]
+2022-01-21 18:01:264 INFO  LoginPage :48 - Switching to iframe: [[ChromeDriver: chrome on WINDOWS (375e95798c06ae8f453044337d39b308)] -> xpath: //iframe[@class='oneauth-iframe']]
+2022-01-21 18:01:561 INFO  LoginPage :51 - Entering username: PrimeTrainee
+2022-01-21 18:01:919 INFO  LoginPage :53 - Entering password: Prime123
+2022-01-21 18:01:299 INFO  LoginPage :58 - Clicking on the login button: [[ChromeDriver: chrome on WINDOWS (375e95798c06ae8f453044337d39b308)] -> xpath: //button[@name='login_submit']]
+2022-01-21 18:01:592 INFO  LoginPage :62 - Reading the error message: [[ChromeDriver: chrome on WINDOWS (375e95798c06ae8f453044337d39b308)] -> xpath: //*[@id="__next"]/form/div[3]/span]
+2022-01-21 18:01:623 INFO  ManageDriver :32 - Launching Chrome Browser
+2022-01-21 18:01:445 INFO  HomePage :46 - Clicking on the login TAB: [[ChromeDriver: chrome on WINDOWS (447a7853399d76396bd25e0623204f13)] -> xpath: //a[normalize-space()='Log In']]
+2022-01-21 18:01:941 INFO  LoginPage :48 - Switching to iframe: [[ChromeDriver: chrome on WINDOWS (447a7853399d76396bd25e0623204f13)] -> xpath: //iframe[@class='oneauth-iframe']]
+2022-01-21 18:01:253 INFO  LoginPage :51 - Entering username: xyz123@gmail.com
+2022-01-21 18:01:573 INFO  LoginPage :53 - Entering password: abc123
+2022-01-21 18:01:957 INFO  LoginPage :58 - Clicking on the login button: [[ChromeDriver: chrome on WINDOWS (447a7853399d76396bd25e0623204f13)] -> xpath: //button[@name='login_submit']]
+2022-01-21 18:01:225 INFO  LoginPage :62 - Reading the error message: [[ChromeDriver: chrome on WINDOWS (447a7853399d76396bd25e0623204f13)] -> xpath: //*[@id="__next"]/form/div[3]/span]
+2022-01-21 18:01:866 INFO  ManageDriver :32 - Launching Chrome Browser
+2022-01-21 18:01:187 INFO  HomePage :46 - Clicking on the login TAB: [[ChromeDriver: chrome on WINDOWS (3289d883c21281da2427b57fd5be2209)] -> xpath: //a[normalize-space()='Log In']]
+2022-01-21 18:01:282 INFO  LoginPage :42 - Verifying the Login page with URL: https://www.heartbingo.co.uk/en-gb/login?first_modal=true
+2022-01-21 18:01:118 INFO  ManageDriver :32 - Launching Chrome Browser
+2022-01-21 18:01:351 INFO  HomePage :46 - Clicking on the login TAB: [[ChromeDriver: chrome on WINDOWS (ad5b80084945c33ff437fd4789c0623c)] -> xpath: //a[normalize-space()='Log In']]
+2022-01-21 18:01:918 INFO  LoginPage :48 - Switching to iframe: [[ChromeDriver: chrome on WINDOWS (ad5b80084945c33ff437fd4789c0623c)] -> xpath: //iframe[@class='oneauth-iframe']]
+2022-01-21 18:01:304 INFO  LoginPage :51 - Entering username: PrimeTrainee
+2022-01-21 18:01:722 INFO  LoginPage :53 - Entering password: Prime123
+2022-01-21 18:01:147 INFO  LoginPage :58 - Clicking on the login button: [[ChromeDriver: chrome on WINDOWS (ad5b80084945c33ff437fd4789c0623c)] -> xpath: //button[@name='login_submit']]
+2022-01-21 18:01:502 INFO  LoginPage :62 - Reading the error message: The username or password you entered is incorrect. Please try again.
+2022-01-21 18:01:409 INFO  ManageDriver :32 - Launching Chrome Browser
+2022-01-21 18:01:695 INFO  HomePage :46 - Clicking on the login TAB: [[ChromeDriver: chrome on WINDOWS (10320c4df69112e62bf954230e2d2276)] -> xpath: //a[normalize-space()='Log In']]
+2022-01-21 18:01:52 INFO  LoginPage :48 - Switching to iframe: [[ChromeDriver: chrome on WINDOWS (10320c4df69112e62bf954230e2d2276)] -> xpath: //iframe[@class='oneauth-iframe']]
+2022-01-21 18:01:326 INFO  LoginPage :51 - Entering username: xyz123@gmail.com
+2022-01-21 18:01:624 INFO  LoginPage :53 - Entering password: abc123
+2022-01-21 18:01:966 INFO  LoginPage :58 - Clicking on the login button: [[ChromeDriver: chrome on WINDOWS (10320c4df69112e62bf954230e2d2276)] -> xpath: //button[@name='login_submit']]
+2022-01-21 18:01:288 INFO  LoginPage :62 - Reading the error message: The username or password you entered is incorrect. Please try again.

@@ -37,23 +37,29 @@ public class LoginPage extends Utility {
 
 
     public void verifyLoginPage() {
-        String curUrl = driver.getCurrentUrl();
-        Assert.assertTrue(curUrl.contains("login"));
+        String currentUrl = driver.getCurrentUrl();
+        Assert.assertTrue(currentUrl.contains("login"));
+        log.info("Verifying the Login page with URL: "+ currentUrl );
     }
 
     public void loginWithInvalidCredentials(String userName, String password) {
 
         driver.switchTo().frame(iframe);
+        log.info("Switching to iframe: "+ iframe.toString());
 
         pmSendTextToElement(userNameLink, userName);
+        log.info("Entering username: "+ userName );
         pmSendTextToElement(passwordLink, password);
+        log.info("Entering password: "+ password );
     }
 
     public void clickOnLoginButton() {
         pmClickOnElement(loginButton);
+        log.info("Clicking on the login button: "+ loginButton.toString());
     }
 
     public String getErrorMessage() {
+        log.info("Reading the error message: "+ actualErrorMsgLink.getText() );
         return pmGetTextFromElement(actualErrorMsgLink);
     }
 }
