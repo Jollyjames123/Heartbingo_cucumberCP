@@ -1,4 +1,4 @@
-package co.uk.heartbingo;
+package co.uk.heartbingo.cucumber;
 
 import com.cucumber.listener.Reporter;
 import cucumber.api.CucumberOptions;
@@ -6,6 +6,17 @@ import cucumber.api.junit.Cucumber;
 import org.junit.AfterClass;
 import org.junit.runner.RunWith;
 
+
+/**
+ * @RunWith annotation tells JUnit
+ * that tests should run using Cucumber class
+ * present in 'Cucumber. api. junit' package
+ */
+
+/**
+ * @CucumberOptions can be used to
+ * provide additional configuration to the runner
+ */
 @RunWith(Cucumber.class)
 @CucumberOptions(
         features = "src/test/java/resources/featurefile",
@@ -13,11 +24,11 @@ import org.junit.runner.RunWith;
         plugin = {"pretty","html:target/cucumber-report/cucumber.html",
                 "com.cucumber.listener.ExtentCucumberFormatter:target/Extent_Reports/report.html",
                 "json:target/RunCuke/cucumber.json"},
-        tags="@Regression"
+        tags="@Smoke"
 
 
 )
-public class TestRunnerRegression {
+public class TestRunnerSmoke {
 
 
     @AfterClass

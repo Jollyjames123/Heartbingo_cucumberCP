@@ -1,3 +1,4 @@
+
 Feature: Homepage Features
 
   Background: User is on the Homepage

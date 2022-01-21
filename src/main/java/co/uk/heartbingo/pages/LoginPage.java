@@ -9,9 +9,13 @@ import org.openqa.selenium.support.CacheLookup;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+
 public class LoginPage extends Utility {
+
+    //logger defined to print logs
     private static final Logger log = LogManager.getLogger(LoginPage.class.getName());
 
+    //to initialise webelements @findby annotations for this page
     public LoginPage() {
         PageFactory.initElements(driver, this);
     }

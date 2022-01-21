@@ -1,4 +1,4 @@
-package co.uk.heartbingo.steps;
+package co.uk.heartbingo.cucumber.steps;
 
 import co.uk.heartbingo.pages.HomePage;
 import cucumber.api.java.en.And;

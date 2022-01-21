@@ -71,3 +71,32 @@
 2022-01-21 18:01:624 INFO  LoginPage :53 - Entering password: abc123
 2022-01-21 18:01:966 INFO  LoginPage :58 - Clicking on the login button: [[ChromeDriver: chrome on WINDOWS (10320c4df69112e62bf954230e2d2276)] -> xpath: //button[@name='login_submit']]
 2022-01-21 18:01:288 INFO  LoginPage :62 - Reading the error message: The username or password you entered is incorrect. Please try again.
+2022-01-21 20:01:577 INFO  ManageDriver :32 - Launching Chrome Browser
+2022-01-21 20:01:247 INFO  HomePage :51 - Is Bingo link displayed? :true
+2022-01-21 20:01:604 INFO  HomePage :56 - Is Jackpots link displayed? :true
+2022-01-21 20:01:936 INFO  HomePage :61 - Is Slots link displayed? :true
+2022-01-21 20:01:339 INFO  HomePage :66 - Is Casino link displayed? :true
+2022-01-21 20:01:666 INFO  HomePage :71 - Is Promos link displayed? :true
+2022-01-21 20:01:594 INFO  ManageDriver :32 - Launching Chrome Browser
+2022-01-21 20:01:906 INFO  HomePage :46 - Clicking on the login TAB: [[ChromeDriver: chrome on WINDOWS (f7806a430915ebb1c71867f280bea721)] -> xpath: //a[normalize-space()='Log In']]
+2022-01-21 20:01:22 INFO  LoginPage :42 - Verifying the Login page with URL: https://www.heartbingo.co.uk/en-gb/login?first_modal=true
+2022-01-21 20:01:855 INFO  ManageDriver :32 - Launching Chrome Browser
+2022-01-21 20:01:360 INFO  HomePage :46 - Clicking on the login TAB: [[ChromeDriver: chrome on WINDOWS (88bdba52364d3f2875cf733768572a43)] -> xpath: //a[normalize-space()='Log In']]
+2022-01-21 20:01:34 INFO  LoginPage :48 - Switching to iframe: [[ChromeDriver: chrome on WINDOWS (88bdba52364d3f2875cf733768572a43)] -> xpath: //iframe[@class='oneauth-iframe']]
+2022-01-21 20:01:341 INFO  LoginPage :51 - Entering username: PrimeTrainee
+2022-01-21 20:01:649 INFO  LoginPage :53 - Entering password: Prime123
+2022-01-21 20:01:34 INFO  LoginPage :58 - Clicking on the login button: [[ChromeDriver: chrome on WINDOWS (88bdba52364d3f2875cf733768572a43)] -> xpath: //button[@name='login_submit']]
+2022-01-21 20:01:344 INFO  LoginPage :62 - Reading the error message: The username or password you entered is incorrect. Please try again.
+2022-01-21 20:01:309 INFO  ManageDriver :32 - Launching Chrome Browser
+2022-01-21 20:01:844 INFO  HomePage :46 - Clicking on the login TAB: [[ChromeDriver: chrome on WINDOWS (30c05952c8a5168d98b832bf2ce25105)] -> xpath: //a[normalize-space()='Log In']]
+2022-01-21 20:01:308 INFO  LoginPage :48 - Switching to iframe: [[ChromeDriver: chrome on WINDOWS (30c05952c8a5168d98b832bf2ce25105)] -> xpath: //iframe[@class='oneauth-iframe']]
+2022-01-21 20:01:584 INFO  LoginPage :51 - Entering username: xyz123@gmail.com
+2022-01-21 20:01:992 INFO  LoginPage :53 - Entering password: abc123
+2022-01-21 20:01:313 INFO  LoginPage :58 - Clicking on the login button: [[ChromeDriver: chrome on WINDOWS (30c05952c8a5168d98b832bf2ce25105)] -> xpath: //button[@name='login_submit']]
+2022-01-21 20:01:629 INFO  LoginPage :62 - Reading the error message: The username or password you entered is incorrect. Please try again.
+2022-01-21 21:01:265 INFO  ManageDriver :32 - Launching Chrome Browser
+2022-01-21 21:01:735 INFO  HomePage :51 - Is Bingo link displayed? :true
+2022-01-21 21:01:140 INFO  HomePage :56 - Is Jackpots link displayed? :true
+2022-01-21 21:01:593 INFO  HomePage :61 - Is Slots link displayed? :true
+2022-01-21 21:01:999 INFO  HomePage :66 - Is Casino link displayed? :true
+2022-01-21 21:01:401 INFO  HomePage :71 - Is Promos link displayed? :true

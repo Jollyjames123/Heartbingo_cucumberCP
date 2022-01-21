@@ -4,12 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db9a94f6-b393-46d0-882f-122c1ea0c6d9" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="db9a94f6-b393-46d0-882f-122c1ea0c6d9" name="Changes" comment="update1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/uk/heartbingo/drivermanager/ManageDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/uk/heartbingo/drivermanager/ManageDriver.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/co/uk/heartbingo/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/uk/heartbingo/pages/HomePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/co/uk/heartbingo/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/uk/heartbingo/pages/LoginPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/logs/log.out" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/logs/log.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/co/uk/heartbingo/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/uk/heartbingo/cucumber/Hooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/co/uk/heartbingo/TestRunnerRegression.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/uk/heartbingo/cucumber/TestRunnerRegression.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/co/uk/heartbingo/TestRunnerSanity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/uk/heartbingo/cucumber/TestRunnerSanity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/co/uk/heartbingo/TestRunnerSmoke.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/uk/heartbingo/cucumber/TestRunnerSmoke.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/co/uk/heartbingo/steps/HomePageSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/uk/heartbingo/cucumber/steps/HomePageSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/co/uk/heartbingo/steps/LoginSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/uk/heartbingo/cucumber/steps/LoginSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/resources/featurefile/homepage.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/resources/featurefile/homepage.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/resources/propertiesfile/log4j2.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/resources/propertiesfile/log4j2.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +54,7 @@
       <recent name="co.uk.heartbingo" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestRunnerSmoke">
+  <component name="RunManager" selected="JUnit.TestRunnerSanity">
     <configuration name="Scenario: Verify Login button is working fine" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/resources/featurefile/login.feature" />
@@ -71,12 +79,12 @@
       <module name="Heartbingo_cucumberCP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="co.uk.heartbingo.*" />
+          <option name="PATTERN" value="co.uk.heartbingo.cucumber.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="co.uk.heartbingo" />
-      <option name="MAIN_CLASS_NAME" value="co.uk.heartbingo.TestRunnerRegression" />
+      <option name="PACKAGE_NAME" value="co.uk.heartbingo.cucumber" />
+      <option name="MAIN_CLASS_NAME" value="co.uk.heartbingo.cucumber.TestRunnerRegression" />
       <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
@@ -87,12 +95,12 @@
       <module name="Heartbingo_cucumberCP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="co.uk.heartbingo.*" />
+          <option name="PATTERN" value="co.uk.heartbingo.cucumber.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="co.uk.heartbingo" />
-      <option name="MAIN_CLASS_NAME" value="co.uk.heartbingo.TestRunnerSanity" />
+      <option name="PACKAGE_NAME" value="co.uk.heartbingo.cucumber" />
+      <option name="MAIN_CLASS_NAME" value="co.uk.heartbingo.cucumber.TestRunnerSanity" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -102,12 +110,12 @@
       <module name="Heartbingo_cucumberCP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="co.uk.heartbingo.*" />
+          <option name="PATTERN" value="co.uk.heartbingo.cucumber.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="co.uk.heartbingo" />
-      <option name="MAIN_CLASS_NAME" value="co.uk.heartbingo.TestRunnerSmoke" />
+      <option name="PACKAGE_NAME" value="co.uk.heartbingo.cucumber" />
+      <option name="MAIN_CLASS_NAME" value="co.uk.heartbingo.cucumber.TestRunnerSmoke" />
       <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
@@ -122,9 +130,9 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestRunnerSmoke" />
         <item itemvalue="JUnit.TestRunnerSanity" />
         <item itemvalue="JUnit.TestRunnerRegression" />
+        <item itemvalue="JUnit.TestRunnerSmoke" />
         <item itemvalue="Cucumber Java.Scenario: Verify Login button is working fine" />
       </list>
     </recent_temporary>
@@ -138,6 +146,14 @@
       <option name="presentableId" value="Default" />
       <updated>1642709454265</updated>
     </task>
+    <task id="LOCAL-00001" summary="update1">
+      <created>1642798412247</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1642798412247</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -150,5 +166,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="update1" />
+    <option name="LAST_COMMIT_MESSAGE" value="update1" />
   </component>
 </project>

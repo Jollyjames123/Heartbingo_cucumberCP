@@ -1,4 +1,4 @@
-package co.uk.heartbingo.steps;
+package co.uk.heartbingo.cucumber.steps;
 
 import co.uk.heartbingo.pages.HomePage;
 import co.uk.heartbingo.pages.LoginPage;
@@ -27,8 +27,8 @@ public class LoginSteps {
 
 
     @And("^enters username and password \"([^\"]*)\" \"([^\"]*)\"$")
-    public void entersUsernameAndPassword(String email, String password)  {
-new LoginPage().loginWithInvalidCredentials(email, password);
+    public void entersUsernameAndPassword(String email, String password) {
+        new LoginPage().loginWithInvalidCredentials(email, password);
 
     }
 
@@ -38,7 +38,7 @@ new LoginPage().loginWithInvalidCredentials(email, password);
     }
 
     @Then("^verifies the error message \"([^\"]*)\"$")
-    public void verifiesTheErrorMessage(String errorMessage)  {
+    public void verifiesTheErrorMessage(String errorMessage) {
         Assert.assertEquals("Message is displayed correctly", errorMessage, new LoginPage().getErrorMessage());
 
     }

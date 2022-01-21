@@ -11,8 +11,10 @@ import org.openqa.selenium.support.PageFactory;
 
 public class HomePage extends Utility {
 
+    //logger defined to print logs
     private static final Logger log = LogManager.getLogger(HomePage.class.getName());
 
+    //to initialise webelements @findby annotations for this page
     public HomePage() {
         PageFactory.initElements(driver, this);
     }
